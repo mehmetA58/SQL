@@ -1,0 +1,47 @@
+
+
+--->>>>Error starting at line : 32 in command -(hatanizin kaçinci satirdan itibaren basladigini ifade ediyor.)
+
+
+
+
+Error report -
+ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+ayni isimli tablo var anlamindaki hata
+
+
+Error report -(örnegin tarihinizde hata varsa...)
+ORA-01858: a non-numeric character was found where a numeric was expected
+Hata raporu -
+ORA-01858: sayisal bir karakterin beklendigi yerde sayisal olmayan bir karakter bulundu
+
+Error report -
+ORA-01400: cannot insert NULL into ("HR"."OGRENCILER"."ID")
+Hata raporu -
+ORA-01400: ("HR"."OGRENCILER"."ID") içine NULL eklenemez
+
+Hata raporu -
+ORA-00001: benzersiz kisitlama (HR.SYS_C007040) ihlal edildi(unique olmayan karakter girildiginde)
+
+ORA-02290: kontrol kisitlamasi (HR.SYS_C007042) ihlal edildi Check kullanilmasi durumu...
+
+
+Hata raporu -
+SQL Hatasi: ORA-00942: tablo veya görünüm mevcut degil
+00942. 00000 - "tablo veya görünüm mevcut degil"
+*Neden:ayni isimli tablo var demekki,yada creat edilenle eleman eklenmek istenen tablolar farkli.
+*Eylem:
+
+
+ORA-01427: single-row subquery returns more than one row
+istenilen yana degistirilmeye calisilan degerden birden fazla varsa.
+
+
+Hata raporu -
+SQL Hatasi: ORA-01756: alintilanan dize düzgün sekilde sonlandirilmadi
+01756. 00000 - "alintilanan dize düzgün sekilde sonlandirilmadi"
+*Neden:komutlardan önce tirnak isareti unutuldugunda verilen hata
+*Eylem:
