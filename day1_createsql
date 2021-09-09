@@ -1,0 +1,38 @@
+--TABLO OLUSTURMA---
+CREATE TABLE student
+(
+id CHAR(4),
+name VARCHAR(20),
+age NUMBER
+);
+
+--VERÝ GÝRÝSÝ---
+INSERT INTO student VALUES ('1001','MEHMET ALA',25);
+INSERT INTO student VALUES ('1002','AYSE',12);
+--TABLODAN VERÝ SORGULAMA---
+SELECT * FROM student;
+
+--tablo silme---
+DROP TABLE student;
+
+--PARcALI VERÝ GÝRÝÞÝ---
+INSERT INTO student(id,name)VALUES('1003','FATMA');
+
+--Vveri tabanýnda urunler adýnda bir tablo olusturun.---
+--urun_id=>number
+--urun_adi=>VARCHAR(50)
+--fiyat=>number
+CREATE TABLE urunler(
+urun_id NUMBER,
+urun_adi VARCHAR(50),
+fiyat NUMBER
+);
+
+INSERT INTO  urunler VALUES('100','CÝPS',5);
+INSERT INTO URUNLER VALUES ('200','KOLA',6);
+
+SELECT
+    * FROM urunler;
+    Drop TABLE urunler;
+
+
