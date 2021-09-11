@@ -45,3 +45,41 @@ SQL Hatasi: ORA-01756: alintilanan dize düzgün sekilde sonlandirilmadi
 01756. 00000 - "alintilanan dize düzgün sekilde sonlandirilmadi"
 *Neden:komutlardan önce tirnak isareti unutuldugunda verilen hata
 *Eylem:
+
+
+
+
+
+
+
+Error report -
+ORA-02299: cannot validate (HR.SYS_C007080) - duplicate keys found
+02299. 00000 - "cannot validate (%s.%s) - duplicate keys found"
+*Cause:    an alter table validating constraint failed because the table has
+           duplicate key values.
+*Action:   Obvious
+
+Hata raporu -
+ORA-02299: dogrulanamiyor (HR.SYS_C007080) - yinelenen anahtarlar bulundu
+02299. 00000 - "dogrulanamiyor (%s.%s) - yinelenen anahtarlar bulundu"
+*Neden: tablonun
+           yinelenen anahtar degerler.
+* Eylem: Açik---tablonun bir kismini uniqe yapmak istediginde tekrarli degerler varsa modify yapilamaz hatasi
+
+
+
+
+
+
+
+
+Error report -
+SQL Error: ORA-00947: not enough values
+00947. 00000 -  "not enough values"
+*Cause:    
+*Action:
+Hata raporu -
+SQL Hatasi: ORA-00947: yeterli deger yok
+00947. 00000 - "yeterli deger yok"
+*Neden:
+*Eylem:kisitlama yapilan satirda kisitlamadan küçük deger girildiginde verilen hata
